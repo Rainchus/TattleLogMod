@@ -626,4 +626,7 @@ It's Buzzar[END]
 #export:String $jungleFuzzyName {
 [Size:0C:0C]Jungle Fuzzy[END]
 }
-    
+
+#export:String $kentCKoopaName {
+[Size:0C:0C]Kent C. Koopa[END]
+}

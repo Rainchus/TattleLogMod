@@ -314,9 +314,9 @@
     
 }
 
-#export:Data $ClubRaster { ~RasterFile:CI-4:tattleLogSprites/Clubba/[0]club.png }
+#export:Data $ClubRaster { ~RasterFile:CI-4:tattleLogSprites/Clubba/0_club.png }
 #export:Data $ClubbaPalette { ~PaletteFile:CI-4:tattleLogSprites/Clubba/palette_clubba.png }
-#export:Data $ClubbaRaster { ~RasterFile:CI-4:tattleLogSprites/Clubba/[1]clubba.png }
+#export:Data $ClubbaRaster { ~RasterFile:CI-4:tattleLogSprites/Clubba/1_clubba.png }
 #export:Data $ClubbaData {
     2 %number of components
     %raster ptr     %palette ptr    %xpos   %ypos %width  %height
@@ -324,9 +324,9 @@
     $ClubbaRaster   $ClubbaPalette  -2`s    1`s  64`s    64`s 
 }
 
-#export:Data $WhiteClubRaster { ~RasterFile:CI-4:tattleLogSprites/Clubba/[0]club.png }
+#export:Data $WhiteClubRaster { ~RasterFile:CI-4:tattleLogSprites/Clubba/0_club.png }
 #export:Data $WhiteClubbaPalette { ~PaletteFile:CI-4:tattleLogSprites/Clubba/palette_white_clubba.png }
-#export:Data $WhiteClubbaRaster { ~RasterFile:CI-4:tattleLogSprites/Clubba/[1]clubba.png }
+#export:Data $WhiteClubbaRaster { ~RasterFile:CI-4:tattleLogSprites/Clubba/1_clubba.png }
 #export:Data $WhiteClubbaData {
     2 %number of components
     %raster ptr         %palette ptr        %xpos   %ypos %width  %height
@@ -367,13 +367,13 @@
 }
 
 
-#export:Data $BuzzarLeftWingRaster { ~RasterFile:CI-4:tattleLogSprites/Buzzar/[0]left_wing.png }
-#export:Data $BuzzarTailRaster { ~RasterFile:CI-4:tattleLogSprites/Buzzar/[1]tail.png }
-#export:Data $BuzzarBodyRaster { ~RasterFile:CI-4:tattleLogSprites/Buzzar/[2]body.png }
-#export:Data $BuzzarRightWingRaster { ~RasterFile:CI-4:tattleLogSprites/Buzzar/[3]right_wing.png }
-#export:Data $BuzzarFeetRaster { ~RasterFile:CI-4:tattleLogSprites/Buzzar/[4]feet.png }
-#export:Data $BuzzarHeadFeatherRaster { ~RasterFile:CI-4:tattleLogSprites/Buzzar/[5]head_feather.png }
-#export:Data $BuzzarHeadRaster { ~RasterFile:CI-4:tattleLogSprites/Buzzar/[6]head.png }
+#export:Data $BuzzarLeftWingRaster { ~RasterFile:CI-4:tattleLogSprites/Buzzar/0_left_wing.png }
+#export:Data $BuzzarTailRaster { ~RasterFile:CI-4:tattleLogSprites/Buzzar/1_tail.png }
+#export:Data $BuzzarBodyRaster { ~RasterFile:CI-4:tattleLogSprites/Buzzar/2_body.png }
+#export:Data $BuzzarRightWingRaster { ~RasterFile:CI-4:tattleLogSprites/Buzzar/3_right_wing.png }
+#export:Data $BuzzarFeetRaster { ~RasterFile:CI-4:tattleLogSprites/Buzzar/4_feet.png }
+#export:Data $BuzzarHeadFeatherRaster { ~RasterFile:CI-4:tattleLogSprites/Buzzar/5_head_feather.png }
+#export:Data $BuzzarHeadRaster { ~RasterFile:CI-4:tattleLogSprites/Buzzar/6_head.png }
 #export:Data $BuzzarPalette { ~PaletteFile:CI-4:tattleLogSprites/Buzzar/palette_buzzar.png }
 
 #export:Data $BuzzarData {
@@ -396,39 +396,39 @@ FFF4 0000
 FFFE FFD6
 FFFE 0000
 %/
-/%
-#export:Data $KentCKoopaLeftHandRaster { ~RasterFile:CI-4:tattleLogSprites/KentCKoopa/[0]left_hand.png }
-#export:Data $KentCKoopaTailRaster { ~RasterFile:CI-4:tattleLogSprites/KentCKoopa/[1]tail.png }
-#export:Data $KentCKoopaLeftShoeRaster { ~RasterFile:CI-4:tattleLogSprites/KentCKoopa/[2]left_shoe.png }
-#export:Data $KentCKoopaBodyRaster { ~RasterFile:CI-4:tattleLogSprites/KentCKoopa/[3]body.png }
-#export:Data $KentCKoopaRightShoeRaster { ~RasterFile:CI-4:tattleLogSprites/KentCKoopa/[4]right_shoe.png }
-#export:Data $KentCKoopaRightArmRaster { ~RasterFile:CI-4:tattleLogSprites/KentCKoopa/[5]right_arm.png }
-#export:Data $KentCKoopaShellRaster { ~RasterFile:CI-4:tattleLogSprites/KentCKoopa/[6]shell.png }
-#export:Data $KentCKoopaHeadRaster { ~RasterFile:CI-4:tattleLogSprites/KentCKoopa/[7]head.png }
-#export:Data $KentCKoopaPalette { ~PaletteFile:CI-4:tattleLogSprites/KentCKoopa/palette_HuffNPuff.png }
+
+#export:Data $KentCKoopaLeftHandRaster { ~RasterFile:CI-4:tattleLogSprites/KentCKoopa/0_left_hand.png }
+#export:Data $KentCKoopaTailRaster { ~RasterFile:CI-4:tattleLogSprites/KentCKoopa/1_tail.png }
+#export:Data $KentCKoopaLeftShoeRaster { ~RasterFile:CI-4:tattleLogSprites/KentCKoopa/2_left_shoe.png }
+#export:Data $KentCKoopaBodyRaster { ~RasterFile:CI-4:tattleLogSprites/KentCKoopa/3_body.png }
+#export:Data $KentCKoopaRightShoeRaster { ~RasterFile:CI-4:tattleLogSprites/KentCKoopa/4_right_leg.png }
+#export:Data $KentCKoopaRightArmRaster { ~RasterFile:CI-4:tattleLogSprites/KentCKoopa/5_right_arm.png }
+#export:Data $KentCKoopaShellRaster { ~RasterFile:CI-4:tattleLogSprites/KentCKoopa/6_shell.png }
+#export:Data $KentCKoopaHeadRaster { ~RasterFile:CI-4:tattleLogSprites/KentCKoopa/7_head.png }
+#export:Data $KentCKoopaPalette { ~PaletteFile:CI-4:tattleLogSprites/KentCKoopa/palette_KentCKoopa.png }
+%new way to do image height and width with SR 0.5.3! (all other instances of image height and width are hardcoded due to expression not existing when mod was made)
 #export:Data $KentCKoopaData {
     8 %number of components
     %raster ptr                 %palette ptr                            %xpos   %ypos  %width  %height
-    $KentCKoopaLeftHandRaster   $KentCKoopaPalette  -24`s     -21`s    32`s    32`s
-    $KentCKoopaTailRaster       $KentCKoopaPalette  46`s     -16`s    64`s    56`s
-    $KentCKoopaLeftShoeRaster   $KentCKoopaPalette  -4`s     3`s    160`s   128`s
-    $KentCKoopaBodyRaster       $KentCKoopaPalette  8`s     -17`s    32`s    48`s
-    $KentCKoopaRightShoeRaster  $KentCKoopaPalette  17`s     3`s    64`s    40`s
-    $KentCKoopaRightArmRaster   $KentCKoopaPalette  -4`s     -21`s    32`s    32`s
-    $KentCKoopaShellRaster      $KentCKoopaPalette  6`s     -25`s    96`s    48`s
-    $KentCKoopaHeadRaster       $KentCKoopaPalette  -33`s     -38`s    64`s    64`s
+    $KentCKoopaLeftHandRaster   $KentCKoopaPalette  -24`s     -21`s    ~Short:ImageW:tattleLogSprites/KentCKoopa/0_left_hand.png    ~Short:ImageH:tattleLogSprites/KentCKoopa/0_left_hand.png
+    $KentCKoopaTailRaster       $KentCKoopaPalette  46`s     -16`s    ~Short:ImageW:tattleLogSprites/KentCKoopa/1_tail.png    ~Short:ImageH:tattleLogSprites/KentCKoopa/1_tail.png
+    $KentCKoopaLeftShoeRaster   $KentCKoopaPalette  -4`s     3`s    ~Short:ImageW:tattleLogSprites/KentCKoopa/2_left_shoe.png    ~Short:ImageH:tattleLogSprites/KentCKoopa/2_left_shoe.png
+    $KentCKoopaBodyRaster       $KentCKoopaPalette  8`s     -17`s    ~Short:ImageW:tattleLogSprites/KentCKoopa/3_body.png    ~Short:ImageH:tattleLogSprites/KentCKoopa/3_body.png
+    $KentCKoopaRightShoeRaster  $KentCKoopaPalette  17`s     3`s    ~Short:ImageW:tattleLogSprites/KentCKoopa/4_right_leg.png    ~Short:ImageH:tattleLogSprites/KentCKoopa/4_right_leg.png
+    $KentCKoopaRightArmRaster   $KentCKoopaPalette  -4`s     -21`s    ~Short:ImageW:tattleLogSprites/KentCKoopa/5_right_arm.png    ~Short:ImageH:tattleLogSprites/KentCKoopa/5_right_arm.png
+    $KentCKoopaShellRaster      $KentCKoopaPalette  6`s     -25`s    ~Short:ImageW:tattleLogSprites/KentCKoopa/6_shell.png    ~Short:ImageH:tattleLogSprites/KentCKoopa/6_shell.png
+    $KentCKoopaHeadRaster       $KentCKoopaPalette  -33`s     -38`s    ~Short:ImageW:tattleLogSprites/KentCKoopa/7_head.png    ~Short:ImageH:tattleLogSprites/KentCKoopa/7_head.png
 }
-%/
 
 
-#export:Data $HuffNPuffHeadCloudRaster { ~RasterFile:CI-4:tattleLogSprites/HuffNPuff/[0]head_cloud.png }
-#export:Data $HuffNPuffLeftArmRaster { ~RasterFile:CI-4:tattleLogSprites/HuffNPuff/[1]left_arm.png }
-#export:Data $HuffNPuffBodyRaster { ~RasterFile:CI-4:tattleLogSprites/HuffNPuff/[2]body.png }
-#export:Data $HuffNPuffLeftCheekRaster { ~RasterFile:CI-4:tattleLogSprites/HuffNPuff/[3]left_cheek.png }
-#export:Data $HuffNPuffEyesRaster { ~RasterFile:CI-4:tattleLogSprites/HuffNPuff/[4]eyes.png }
-#export:Data $HuffNPuffMouthRaster { ~RasterFile:CI-4:tattleLogSprites/HuffNPuff/[5]mouth.png }
-#export:Data $HuffNPuffRightCheekAndNoseRaster { ~RasterFile:CI-4:tattleLogSprites/HuffNPuff/[6]right_cheek_and_nose.png }
-#export:Data $HuffNPuffRightHandRaster { ~RasterFile:CI-4:tattleLogSprites/HuffNPuff/[7]right_hand.png }
+#export:Data $HuffNPuffHeadCloudRaster { ~RasterFile:CI-4:tattleLogSprites/HuffNPuff/0_head_cloud.png }
+#export:Data $HuffNPuffLeftArmRaster { ~RasterFile:CI-4:tattleLogSprites/HuffNPuff/1_left_arm.png }
+#export:Data $HuffNPuffBodyRaster { ~RasterFile:CI-4:tattleLogSprites/HuffNPuff/2_body.png }
+#export:Data $HuffNPuffLeftCheekRaster { ~RasterFile:CI-4:tattleLogSprites/HuffNPuff/3_left_cheek.png }
+#export:Data $HuffNPuffEyesRaster { ~RasterFile:CI-4:tattleLogSprites/HuffNPuff/4_eyes.png }
+#export:Data $HuffNPuffMouthRaster { ~RasterFile:CI-4:tattleLogSprites/HuffNPuff/5_mouth.png }
+#export:Data $HuffNPuffRightCheekAndNoseRaster { ~RasterFile:CI-4:tattleLogSprites/HuffNPuff/6_right_cheek_and_nose.png }
+#export:Data $HuffNPuffRightHandRaster { ~RasterFile:CI-4:tattleLogSprites/HuffNPuff/7_right_hand.png }
 #export:Data $HuffNPuffPalette { ~PaletteFile:CI-4:tattleLogSprites/HuffNPuff/palette_HuffNPuff.png }
 #export:Data $HuffNPuffData {
     8 %number of components
@@ -451,9 +451,9 @@ FFFE 0000
     $GulpitRaster       $GulpitPalette       0`s    0`s     112`s    72`s
 }
 
-#export:Data $MonstarOutlineRaster { ~RasterFile:CI-4:tattleLogSprites/Monstar/[0]outline.png }
-#export:Data $MonstarBodyRaster { ~RasterFile:CI-4:tattleLogSprites/Monstar/[1]body.png }
-#export:Data $MonstarMouthAndEyesRaster { ~RasterFile:CI-4:tattleLogSprites/Monstar/[2]mouth_and_eyes.png }
+#export:Data $MonstarOutlineRaster { ~RasterFile:CI-4:tattleLogSprites/Monstar/0_outline.png }
+#export:Data $MonstarBodyRaster { ~RasterFile:CI-4:tattleLogSprites/Monstar/1_body.png }
+#export:Data $MonstarMouthAndEyesRaster { ~RasterFile:CI-4:tattleLogSprites/Monstar/2_mouth_and_eyes.png }
 #export:Data $MonstarPalette { ~PaletteFile:CI-4:tattleLogSprites/Monstar/palette_Monstar.png }
 #export:Data $MonstarData {
     3 %number of components (draws in order)
@@ -472,14 +472,14 @@ FFFE 0000
 }
 
 
-#export:Data $TubbaLeftArmRaster { ~RasterFile:CI-4:tattleLogSprites/TubbaBlubba/[0]right_arm.png }
-#export:Data $TubbaLeftFootRaster { ~RasterFile:CI-4:tattleLogSprites/TubbaBlubba/[1]left_foot.png }
-#export:Data $TubbaHairRaster { ~RasterFile:CI-4:tattleLogSprites/TubbaBlubba/[2]hair.png }
-#export:Data $TubbaBodyRaster { ~RasterFile:CI-4:tattleLogSprites/TubbaBlubba/[3]body.png }
-#export:Data $TubbaEyesRaster { ~RasterFile:CI-4:tattleLogSprites/TubbaBlubba/[4]eyes.png }
-#export:Data $TubbaMouthRaster { ~RasterFile:CI-4:tattleLogSprites/TubbaBlubba/[5]mouth.png }
-#export:Data $TubbaRightFootRaster { ~RasterFile:CI-4:tattleLogSprites/TubbaBlubba/[6]right_foot.png }
-#export:Data $TubbaRightArmRaster { ~RasterFile:CI-4:tattleLogSprites/TubbaBlubba/[7]right_arm.png }
+#export:Data $TubbaLeftArmRaster { ~RasterFile:CI-4:tattleLogSprites/TubbaBlubba/0_right_arm.png }
+#export:Data $TubbaLeftFootRaster { ~RasterFile:CI-4:tattleLogSprites/TubbaBlubba/1_left_foot.png }
+#export:Data $TubbaHairRaster { ~RasterFile:CI-4:tattleLogSprites/TubbaBlubba/2_hair.png }
+#export:Data $TubbaBodyRaster { ~RasterFile:CI-4:tattleLogSprites/TubbaBlubba/3_body.png }
+#export:Data $TubbaEyesRaster { ~RasterFile:CI-4:tattleLogSprites/TubbaBlubba/4_eyes.png }
+#export:Data $TubbaMouthRaster { ~RasterFile:CI-4:tattleLogSprites/TubbaBlubba/5_mouth.png }
+#export:Data $TubbaRightFootRaster { ~RasterFile:CI-4:tattleLogSprites/TubbaBlubba/6_right_foot.png }
+#export:Data $TubbaRightArmRaster { ~RasterFile:CI-4:tattleLogSprites/TubbaBlubba/7_right_arm.png }
 #export:Data $TubbaPalette { ~PaletteFile:CI-4:tattleLogSprites/TubbaBlubba/palette_tubba_blubba.png }
 
 #export:Data $TubbaData {
@@ -495,10 +495,10 @@ FFFE 0000
     $TubbaRightArmRaster    $TubbaPalette           -1`s     -3`s    48`s    64`s
 }
 
-#export:Data $StiltGuyBodyRaster { ~RasterFile:CI-4:tattleLogSprites/StiltGuy/[0]body.png }
-#export:Data $StiltGuyRightStiltRaster { ~RasterFile:CI-4:tattleLogSprites/StiltGuy/[1]right_stilt.png }
-#export:Data $StiltGuyLeftStiltRaster { ~RasterFile:CI-4:tattleLogSprites/StiltGuy/[2]left_stilt.png }
-#export:Data $StiltGuyArmsRaster { ~RasterFile:CI-4:tattleLogSprites/StiltGuy/[3]arms.png }
+#export:Data $StiltGuyBodyRaster { ~RasterFile:CI-4:tattleLogSprites/StiltGuy/0_body.png }
+#export:Data $StiltGuyRightStiltRaster { ~RasterFile:CI-4:tattleLogSprites/StiltGuy/1_right_stilt.png }
+#export:Data $StiltGuyLeftStiltRaster { ~RasterFile:CI-4:tattleLogSprites/StiltGuy/2_left_stilt.png }
+#export:Data $StiltGuyArmsRaster { ~RasterFile:CI-4:tattleLogSprites/StiltGuy/3_arms.png }
 #export:Data $StiltGuyPalette { ~PaletteFile:CI-4:tattleLogSprites/StiltGuy/palette_stilt_guy.png }
 #export:Data $StiltGuyData {
     4 %number of components
@@ -509,10 +509,10 @@ FFFE 0000
     $StiltGuyArmsRaster          $StiltGuyPalette   8`s     -57`s   32`s    24`s
 }
 
-#export:Data $BigLanternGhostRaster { ~RasterFile:CI-4:tattleLogSprites/BigLanternGhost/[0]big_lantern_ghost.png }
-#export:Data $LanternRaster { ~RasterFile:CI-4:tattleLogSprites/BigLanternGhost/[1]lantern.png }
+#export:Data $BigLanternGhostRaster { ~RasterFile:CI-4:tattleLogSprites/BigLanternGhost/0_big_lantern_ghost.png }
+#export:Data $LanternRaster { ~RasterFile:CI-4:tattleLogSprites/BigLanternGhost/1_lantern.png }
 #export:Data $BigLanternGhostPalette { ~PaletteFile:CI-4:tattleLogSprites/BigLanternGhost/palette_big_lantern_ghost.png }
-#export:Data $LanternPalette { ~PaletteFile:CI-4:tattleLogSprites/BigLanternGhost/[1]lantern.png }
+#export:Data $LanternPalette { ~PaletteFile:CI-4:tattleLogSprites/BigLanternGhost/1_lantern.png }
 #export:Data $BigLanternGhostData {
     2 %number of components
     %raster ptr                 %palette ptr                %xpos   %ypos   %width  %height
@@ -536,8 +536,8 @@ FFFE 0000
     $LeeRaster        $LeePalette       0`s    0`s     64`s    48`s
 }
 
-#export:Data $SpearRaster { ~RasterFile:CI-4:tattleLogSprites/SpearGuy/[0]spear.png }
-#export:Data $SpearGuyRaster { ~RasterFile:CI-4:tattleLogSprites/SpearGuy/[1]jungle_guy.png }
+#export:Data $SpearRaster { ~RasterFile:CI-4:tattleLogSprites/SpearGuy/0_spear.png }
+#export:Data $SpearGuyRaster { ~RasterFile:CI-4:tattleLogSprites/SpearGuy/1_jungle_guy.png }
 #export:Data $SpearGuyPalette { ~PaletteFile:CI-4:tattleLogSprites/SpearGuy/palette_spear_guy.png }
 #export:Data $SpearGuyData {
     2 %number of components
@@ -546,8 +546,8 @@ FFFE 0000
     $SpearGuyRaster         $SpearGuyPalette        0`s     0`s    48`s    40`s
 }
 
-#export:Data $HurtPlantBaseRaster { ~RasterFile:CI-4:tattleLogSprites/HurtPlant/[0]base.png }
-#export:Data $HurtPlantHeadRaster { ~RasterFile:CI-4:tattleLogSprites/HurtPlant/[1]head.png }
+#export:Data $HurtPlantBaseRaster { ~RasterFile:CI-4:tattleLogSprites/HurtPlant/0_base.png }
+#export:Data $HurtPlantHeadRaster { ~RasterFile:CI-4:tattleLogSprites/HurtPlant/1_head.png }
 #export:Data $HurtPlantPalette { ~PaletteFile:CI-4:tattleLogSprites/HurtPlant/palette_hurt_plant.png }
 #export:Data $HurtPlantData {
     2 %number of components
@@ -564,10 +564,10 @@ FFFE 0000
     $MBushRaster        $MBushPalette             0`s    0`s     48`s    48`s
 }
 
-#export:Data $PutridPiranhaLeftLeafRaster { ~RasterFile:CI-4:tattleLogSprites/PutridPiranha/[0]left_leaf.png }
-#export:Data $PutridPiranhaStemRaster { ~RasterFile:CI-4:tattleLogSprites/PutridPiranha/[1]stem.png }
-#export:Data $PutridPiranhaRightLeafRaster { ~RasterFile:CI-4:tattleLogSprites/PutridPiranha/[2]right_leaf.png }
-#export:Data $PutridPiranhaHeadRaster { ~RasterFile:CI-4:tattleLogSprites/PutridPiranha/[3]head.png }
+#export:Data $PutridPiranhaLeftLeafRaster { ~RasterFile:CI-4:tattleLogSprites/PutridPiranha/0_left_leaf.png }
+#export:Data $PutridPiranhaStemRaster { ~RasterFile:CI-4:tattleLogSprites/PutridPiranha/1_stem.png }
+#export:Data $PutridPiranhaRightLeafRaster { ~RasterFile:CI-4:tattleLogSprites/PutridPiranha/2_right_leaf.png }
+#export:Data $PutridPiranhaHeadRaster { ~RasterFile:CI-4:tattleLogSprites/PutridPiranha/3_head.png }
 #export:Data $PutridPiranhaPalette { ~PaletteFile:CI-4:tattleLogSprites/PutridPiranha/palette_putrid_piranha.png }
 #export:Data $PutridPiranhaData {
     4 %number of components
@@ -587,8 +587,8 @@ FFFE 0000
     $BanditRaster        $BanditPalette             0`s    0`s     32`s    48`s
 }
 
-#export:Data $PokeyHeadRaster { ~RasterFile:CI-4:tattleLogSprites/Pokey/[0]head.png }
-#export:Data $PokeyBodyRaster { ~RasterFile:CI-4:tattleLogSprites/Pokey/[1]body1.png }
+#export:Data $PokeyHeadRaster { ~RasterFile:CI-4:tattleLogSprites/Pokey/0_head.png }
+#export:Data $PokeyBodyRaster { ~RasterFile:CI-4:tattleLogSprites/Pokey/1_body1.png }
 #export:Data $PokeyPalette { ~PaletteFile:CI-4:tattleLogSprites/Pokey/palette_pokey.png }
 #export:Data $PokeyData {
     4 %number of components (draws in order)
@@ -599,8 +599,8 @@ FFFE 0000
     $PokeyBodyRaster        $PokeyPalette             0`s    0`s     32`s    32`s
 }
 
-#export:Data $PoisonPokeyHeadRaster { ~RasterFile:CI-4:tattleLogSprites/Pokey/[0]head.png }
-#export:Data $PoisonPokeyBodyRaster { ~RasterFile:CI-4:tattleLogSprites/Pokey/[1]body1.png }
+#export:Data $PoisonPokeyHeadRaster { ~RasterFile:CI-4:tattleLogSprites/Pokey/0_head.png }
+#export:Data $PoisonPokeyBodyRaster { ~RasterFile:CI-4:tattleLogSprites/Pokey/1_body1.png }
 #export:Data $PoisonPokeyPalette { ~PaletteFile:CI-4:tattleLogSprites/Pokey/palette_poison_pokey.png }
 #export:Data $PoisonPokeyData {
     4 %number of components (draws in order)
@@ -667,16 +667,16 @@ FFFE 0000
     $GrooveGuyRaster      $GrooveGuyPalette         0`s    0`s     48`s    48`s
 }
 
-#export:Data $SkyGuyRedBalloonStringRaster { ~RasterFile:CI-4:tattleLogSprites/SkyGuy/[0]red_balloon_string.png }
-#export:Data $SkyGuyRedBalloonRaster { ~RasterFile:CI-4:tattleLogSprites/SkyGuy/[1]red_balloon.png }
-#export:Data $SkyGuyRedBalloonPalette { ~PaletteFile:CI-4:tattleLogSprites/SkyGuy/[1]red_balloon.png }
-#export:Data $SkyGuyYellowBalloonStringRaster { ~RasterFile:CI-4:tattleLogSprites/SkyGuy/[2]yellow_balloon_string.png }
-#export:Data $SkyGuyYellowBalloonRaster { ~RasterFile:CI-4:tattleLogSprites/SkyGuy/[3]yellow_balloon.png }
+#export:Data $SkyGuyRedBalloonStringRaster { ~RasterFile:CI-4:tattleLogSprites/SkyGuy/0_red_balloon_string.png }
+#export:Data $SkyGuyRedBalloonRaster { ~RasterFile:CI-4:tattleLogSprites/SkyGuy/1_red_balloon.png }
+#export:Data $SkyGuyRedBalloonPalette { ~PaletteFile:CI-4:tattleLogSprites/SkyGuy/1_red_balloon.png }
+#export:Data $SkyGuyYellowBalloonStringRaster { ~RasterFile:CI-4:tattleLogSprites/SkyGuy/2_yellow_balloon_string.png }
+#export:Data $SkyGuyYellowBalloonRaster { ~RasterFile:CI-4:tattleLogSprites/SkyGuy/3_yellow_balloon.png }
 #export:Data $SkyGuyYellowBalloonPalette { ~PaletteFile:CI-4:tattleLogSprites/SkyGuy/palette_yellow_balloon.png }
-#export:Data $SkyGuyBlueBalloonStringRaster { ~RasterFile:CI-4:tattleLogSprites/SkyGuy/[4]blue_balloon_string.png }
-#export:Data $SkyGuyBlueBalloonRaster { ~RasterFile:CI-4:tattleLogSprites/SkyGuy/[5]blue_balloon.png }
-#export:Data $SkyGuyBlueBalloonPalette { ~PaletteFile:CI-4:tattleLogSprites/SkyGuy/[5]blue_balloon.png }
-#export:Data $SkyGuyRaster { ~RasterFile:CI-4:tattleLogSprites/SkyGuy/[6]raster_sky_guy.png }
+#export:Data $SkyGuyBlueBalloonStringRaster { ~RasterFile:CI-4:tattleLogSprites/SkyGuy/4_blue_balloon_string.png }
+#export:Data $SkyGuyBlueBalloonRaster { ~RasterFile:CI-4:tattleLogSprites/SkyGuy/5_blue_balloon.png }
+#export:Data $SkyGuyBlueBalloonPalette { ~PaletteFile:CI-4:tattleLogSprites/SkyGuy/5_blue_balloon.png }
+#export:Data $SkyGuyRaster { ~RasterFile:CI-4:tattleLogSprites/SkyGuy/6_raster_sky_guy.png }
 #export:Data $SkyGuyPalette { ~PaletteFile:CI-4:tattleLogSprites/SkyGuy/palette_sky_guy.png }
 #export:Data $SkyGuyData {
     7 %number of components (draws in order)
@@ -709,9 +709,9 @@ FFFE 0000
     $spyGuyRaster      $spyGuyPalette         0`s    0`s     48`s    48`s
 }
 
-#export:Data $PyroGuyLeftFootRaster { ~RasterFile:CI-4:tattleLogSprites/PyroGuy/[0]left_foot.png }
-#export:Data $PyroGuyBodyRaster { ~RasterFile:CI-4:tattleLogSprites/PyroGuy/[1]body.png }
-#export:Data $PyroGuyRightFootRaster { ~RasterFile:CI-4:tattleLogSprites/PyroGuy/[2]right_foot.png }
+#export:Data $PyroGuyLeftFootRaster { ~RasterFile:CI-4:tattleLogSprites/PyroGuy/0_left_foot.png }
+#export:Data $PyroGuyBodyRaster { ~RasterFile:CI-4:tattleLogSprites/PyroGuy/1_body.png }
+#export:Data $PyroGuyRightFootRaster { ~RasterFile:CI-4:tattleLogSprites/PyroGuy/2_right_foot.png }
 #export:Data $PyroGuyPalette { ~PaletteFile:CI-4:tattleLogSprites/PyroGuy/palette_pyro_guy.png }
 #export:Data $PyroGuyData {
     3 %number of components (draws in order)
@@ -801,10 +801,10 @@ FFFE 0000
     $SpinyRaster $SpinyPalette      0`s     0`s     32`s    32`s
 }
 
-#export:Data $LakituRaster { ~RasterFile:CI-4:tattleLogSprites/Lakitu/[0]head.png }
-#export:Data $LakituPalette { ~PaletteFile:CI-4:tattleLogSprites/Lakitu/[0]head.png }
-#export:Data $LakituCloudRaster { ~RasterFile:CI-4:tattleLogSprites/Lakitu/[1]cloud.png }
-#export:Data $LakituCloudPalette { ~PaletteFile:CI-4:tattleLogSprites/Lakitu/[1]cloud.png }
+#export:Data $LakituRaster { ~RasterFile:CI-4:tattleLogSprites/Lakitu/0_head.png }
+#export:Data $LakituPalette { ~PaletteFile:CI-4:tattleLogSprites/Lakitu/0_head.png }
+#export:Data $LakituCloudRaster { ~RasterFile:CI-4:tattleLogSprites/Lakitu/1_cloud.png }
+#export:Data $LakituCloudPalette { ~PaletteFile:CI-4:tattleLogSprites/Lakitu/1_cloud.png }
 #export:Data $LakituData {
     2 %number of components (draws in order)
     %raster ptr    %palette ptr                 %xpos   %ypos   %width  %height
@@ -813,10 +813,10 @@ FFFE 0000
     
 }
 
-#export:Data $SpikeRaster { ~RasterFile:CI-4:tattleLogSprites/Spike/[0]head.png }
-#export:Data $SpikePalette { ~PaletteFile:CI-4:tattleLogSprites/Spike/[0]head.png }
-#export:Data $SpikeCloudRaster { ~RasterFile:CI-4:tattleLogSprites/Spike/[1]cloud.png }
-#export:Data $SpikeCloudPalette { ~PaletteFile:CI-4:tattleLogSprites/Spike/[1]cloud.png }
+#export:Data $SpikeRaster { ~RasterFile:CI-4:tattleLogSprites/Spike/0_head.png }
+#export:Data $SpikePalette { ~PaletteFile:CI-4:tattleLogSprites/Spike/0_head.png }
+#export:Data $SpikeCloudRaster { ~RasterFile:CI-4:tattleLogSprites/Spike/1_cloud.png }
+#export:Data $SpikeCloudPalette { ~PaletteFile:CI-4:tattleLogSprites/Spike/1_cloud.png }
 #export:Data $SpikeData {
     2 %number of components (draws in order)
     %raster ptr    %palette ptr                 %xpos   %ypos   %width  %height
@@ -833,10 +833,10 @@ FFFE 0000
     $JrTroopaRaster $JrTroopaPalette      0`s     0`s     32`s    48`s
 }
 
-#export:Data $FrostPiranhaLeftLeafRaster { ~RasterFile:CI-4:tattleLogSprites/PutridPiranha/[0]left_leaf.png }
-#export:Data $FrostPiranhaStemRaster { ~RasterFile:CI-4:tattleLogSprites/PutridPiranha/[1]stem.png }
-#export:Data $FrostPiranhaRightLeafRaster { ~RasterFile:CI-4:tattleLogSprites/PutridPiranha/[2]right_leaf.png }
-#export:Data $FrostPiranhaHeadRaster { ~RasterFile:CI-4:tattleLogSprites/PutridPiranha/[3]head.png }
+#export:Data $FrostPiranhaLeftLeafRaster { ~RasterFile:CI-4:tattleLogSprites/PutridPiranha/0_left_leaf.png }
+#export:Data $FrostPiranhaStemRaster { ~RasterFile:CI-4:tattleLogSprites/PutridPiranha/1_stem.png }
+#export:Data $FrostPiranhaRightLeafRaster { ~RasterFile:CI-4:tattleLogSprites/PutridPiranha/2_right_leaf.png }
+#export:Data $FrostPiranhaHeadRaster { ~RasterFile:CI-4:tattleLogSprites/PutridPiranha/3_head.png }
 #export:Data $FrostPiranhaPalette { ~PaletteFile:CI-4:tattleLogSprites/PutridPiranha/palette_frost_piranha.png }
 #export:Data $FrostPiranhaData {
     4 %number of components
@@ -847,9 +847,9 @@ FFFE 0000
     $FrostPiranhaHeadRaster            $FrostPiranhaPalette   -20`s   -20`s    64`s    56`s
 }
 
-#export:Data $crystalKingBodyRaster { ~RasterFile:CI-4:tattleLogSprites/CrystalKing/[0]body.png }
-#export:Data $crystalKingCrownRaster { ~RasterFile:CI-4:tattleLogSprites/CrystalKing/[1]crown.png }
-#export:Data $crystalKingEyesRaster { ~RasterFile:CI-4:tattleLogSprites/CrystalKing/[2]eyes.png }
+#export:Data $crystalKingBodyRaster { ~RasterFile:CI-4:tattleLogSprites/CrystalKing/0_body.png }
+#export:Data $crystalKingCrownRaster { ~RasterFile:CI-4:tattleLogSprites/CrystalKing/1_crown.png }
+#export:Data $crystalKingEyesRaster { ~RasterFile:CI-4:tattleLogSprites/CrystalKing/2_eyes.png }
 #export:Data $crystalKingPalette { ~PaletteFile:CI-4:tattleLogSprites/CrystalKing/palette_crystal_king.png }
 #export:Data $CrystalKingData {
     3 %number of components         %when putting the Y position flip the sign
@@ -859,10 +859,10 @@ FFFE 0000
     $crystalKingEyesRaster   $crystalKingPalette      -9`s     -35`s     32`s     16`s
 }
 
-#export:Data $crystalBitCubeRaster { ~RasterFile:CI-4:tattleLogSprites/CrystalBit/[0]cube_bit.png }
-#export:Data $crystalBitCircleRaster { ~RasterFile:CI-4:tattleLogSprites/CrystalBit/[0]circle_bit.png }
-#export:Data $crystalBitRhombusRaster { ~RasterFile:CI-4:tattleLogSprites/CrystalBit/[0]rhombus_bit.png }
-#export:Data $crystalBitEyesRaster { ~RasterFile:CI-4:tattleLogSprites/CrystalBit/[1]crystal_bit_eyes.png }
+#export:Data $crystalBitCubeRaster { ~RasterFile:CI-4:tattleLogSprites/CrystalBit/0_cube_bit.png }
+#export:Data $crystalBitCircleRaster { ~RasterFile:CI-4:tattleLogSprites/CrystalBit/0_circle_bit.png }
+#export:Data $crystalBitRhombusRaster { ~RasterFile:CI-4:tattleLogSprites/CrystalBit/0_rhombus_bit.png }
+#export:Data $crystalBitEyesRaster { ~RasterFile:CI-4:tattleLogSprites/CrystalBit/1_crystal_bit_eyes.png }
 #export:Data $crystalBitPalette { ~PaletteFile:CI-4:tattleLogSprites/CrystalBit/palette_crystal_bits.png }
 #export:Data $CrystalBitData {
     6 %number of components         %when putting the Y position flip the sign
@@ -921,10 +921,10 @@ FFFE 0000
     $KoopaBroRaster      $KoopaBroRedPalette        90`s    0`s    48`s    64`s
 }
 
-#export:Data $DryBonesLeftHandRaster { ~RasterFile:CI-4:tattleLogSprites/DryBones/[0]left_hand.png }
-#export:Data $DryBonesBodyRaster { ~RasterFile:CI-4:tattleLogSprites/DryBones/[1]body.png }
-#export:Data $DryBonesHeadRaster { ~RasterFile:CI-4:tattleLogSprites/DryBones/[2]head.png }
-#export:Data $DryBonesRightHandRaster { ~RasterFile:CI-4:tattleLogSprites/DryBones/[3]right_hand.png }
+#export:Data $DryBonesLeftHandRaster { ~RasterFile:CI-4:tattleLogSprites/DryBones/0_left_hand.png }
+#export:Data $DryBonesBodyRaster { ~RasterFile:CI-4:tattleLogSprites/DryBones/1_body.png }
+#export:Data $DryBonesHeadRaster { ~RasterFile:CI-4:tattleLogSprites/DryBones/2_head.png }
+#export:Data $DryBonesRightHandRaster { ~RasterFile:CI-4:tattleLogSprites/DryBones/3_right_hand.png }
 #export:Data $DryBonesPalette { ~PaletteFile:CI-4:tattleLogSprites/DryBones/palette_dry_bones.png }
 #export:Data $DryBonesData {
     4 %number of components
@@ -935,13 +935,13 @@ FFFE 0000
     $DryBonesRightHandRaster    $DryBonesPalette    -4`s    -5`s     16`s    16`s
 }
 
-#export:Data $BowserLeftFootRaster { ~RasterFile:CI-4:tattleLogSprites/Bowser/[0]left_foot.png }
-#export:Data $BowserLeftHandRaster { ~RasterFile:CI-4:tattleLogSprites/Bowser/[1]left_hand.png }
-#export:Data $BowserBodyRaster { ~RasterFile:CI-4:tattleLogSprites/Bowser/[2]body.png }
-#export:Data $BowserRightFootRaster { ~RasterFile:CI-4:tattleLogSprites/Bowser/[3]right_foot.png }
-#export:Data $BowserShellRaster { ~RasterFile:CI-4:tattleLogSprites/Bowser/[4]shell.png }
-#export:Data $BowserHeadRaster { ~RasterFile:CI-4:tattleLogSprites/Bowser/[5]head.png }
-#export:Data $BowserRightArmRaster { ~RasterFile:CI-4:tattleLogSprites/Bowser/[6]right_arm.png }
+#export:Data $BowserLeftFootRaster { ~RasterFile:CI-4:tattleLogSprites/Bowser/0_left_foot.png }
+#export:Data $BowserLeftHandRaster { ~RasterFile:CI-4:tattleLogSprites/Bowser/1_left_hand.png }
+#export:Data $BowserBodyRaster { ~RasterFile:CI-4:tattleLogSprites/Bowser/2_body.png }
+#export:Data $BowserRightFootRaster { ~RasterFile:CI-4:tattleLogSprites/Bowser/3_right_foot.png }
+#export:Data $BowserShellRaster { ~RasterFile:CI-4:tattleLogSprites/Bowser/4_shell.png }
+#export:Data $BowserHeadRaster { ~RasterFile:CI-4:tattleLogSprites/Bowser/5_head.png }
+#export:Data $BowserRightArmRaster { ~RasterFile:CI-4:tattleLogSprites/Bowser/6_right_arm.png }
 #export:Data $BowserPalette { ~PaletteFile:CI-4:tattleLogSprites/Bowser/palette_bowser.png }
 #export:Data $BowserData {
     7 %number of components
@@ -956,17 +956,17 @@ FFFE 0000
 }
 
 
-#export:Data $goombaKingComp0Raster { ~RasterFile:CI-4:tattleLogSprites/GoombaKing/[0]pants.png }
-#export:Data $goombaKingComp1Raster { ~RasterFile:CI-4:tattleLogSprites/GoombaKing/[1]body.png }
-#export:Data $goombaKingComp2Raster { ~RasterFile:CI-4:tattleLogSprites/GoombaKing/[2]left_foot.png }
-#export:Data $goombaKingComp3Raster { ~RasterFile:CI-4:tattleLogSprites/GoombaKing/[3]right_foot.png }
-#export:Data $goombaKingComp4Raster { ~RasterFile:CI-4:tattleLogSprites/GoombaKing/[4]eyes.png }
-#export:Data $goombaKingComp5Raster { ~RasterFile:CI-4:tattleLogSprites/GoombaKing/[5]mouth.png }
-#export:Data $goombaKingComp6Raster { ~RasterFile:CI-4:tattleLogSprites/GoombaKing/[6]left_moustache.png }
-#export:Data $goombaKingComp7Raster { ~RasterFile:CI-4:tattleLogSprites/GoombaKing/[7]right_moustache.png }
-#export:Data $goombaKingComp8Raster { ~RasterFile:CI-4:tattleLogSprites/GoombaKing/[8]crown.png }
-#export:Data $goombaKingComp9Raster { ~RasterFile:CI-4:tattleLogSprites/GoombaKing/[9]right_eyebrow.png }
-#export:Data $goombaKingComp10Raster { ~RasterFile:CI-4:tattleLogSprites/GoombaKing/[10]left_eyebrow.png }
+#export:Data $goombaKingComp0Raster { ~RasterFile:CI-4:tattleLogSprites/GoombaKing/0_pants.png }
+#export:Data $goombaKingComp1Raster { ~RasterFile:CI-4:tattleLogSprites/GoombaKing/1_body.png }
+#export:Data $goombaKingComp2Raster { ~RasterFile:CI-4:tattleLogSprites/GoombaKing/2_left_foot.png }
+#export:Data $goombaKingComp3Raster { ~RasterFile:CI-4:tattleLogSprites/GoombaKing/3_right_foot.png }
+#export:Data $goombaKingComp4Raster { ~RasterFile:CI-4:tattleLogSprites/GoombaKing/4_eyes.png }
+#export:Data $goombaKingComp5Raster { ~RasterFile:CI-4:tattleLogSprites/GoombaKing/5_mouth.png }
+#export:Data $goombaKingComp6Raster { ~RasterFile:CI-4:tattleLogSprites/GoombaKing/6_left_moustache.png }
+#export:Data $goombaKingComp7Raster { ~RasterFile:CI-4:tattleLogSprites/GoombaKing/7_right_moustache.png }
+#export:Data $goombaKingComp8Raster { ~RasterFile:CI-4:tattleLogSprites/GoombaKing/8_crown.png }
+#export:Data $goombaKingComp9Raster { ~RasterFile:CI-4:tattleLogSprites/GoombaKing/9_right_eyebrow.png }
+#export:Data $goombaKingComp10Raster { ~RasterFile:CI-4:tattleLogSprites/GoombaKing/10_left_eyebrow.png }
 #export:Data $goombaKingPalette { ~PaletteFile:CI-4:tattleLogSprites/GoombaKing/palette_goomba_king.png }
 #export:Data $GoombaKingData {
     11` %number of components         %when putting the Y position flip the sign

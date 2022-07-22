@@ -1,4 +1,4 @@
-#define .powerPlusPID 00000141 %temp example
+#export .powerPlusPID 00000141 %temp example
 
 #new:Function $IsBadgeEquipped %checks for badge ID
 {
@@ -123,4 +123,3 @@ ORI     v0, r0, 0002
 #export $API_SetPartnerDamage
 #export $API_IsBadgeEquipped
 #export $IsBadgeEquipped
-#export .powerPlusPID

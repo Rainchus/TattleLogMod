@@ -107,7 +107,7 @@ typedef struct page {
     0   0   0   0`s     0`s 	0
     0   0   0   0`s     0`s 	0
     0   0   0   0`s     0`s 	0
-    0   0   0   0`s     0`s 	0
+    $kentCKoopaName              002F006F    35  40`s    32`s     $KentCKoopaData
     0   0   0   0`s     0`s 	0
     0   0   0   0`s     0`s 	0
     0   0   0   0`s     0`s 	0
